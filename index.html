@@ -18,7 +18,17 @@
         margin: 0;
         padding: 0;
         font-family: "Inter", sans-serif;
-        background: #0d1117;
+        background: linear-gradient(
+            rgba(13, 17, 23, 0.85),
+            rgba(13, 17, 23, 0.85)
+          ),
+          url("background.png");
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
         color: #e6edf3;
         display: flex;
         justify-content: center;
@@ -30,6 +40,10 @@
         max-width: 720px;
         padding: 30px;
         text-align: center;
+        max-width: 720px;
+        background: rgba(13, 17, 23, 0.75);
+        backdrop-filter: blur(10px);
+        border-radius: 16px;
       }
 
       .avatar {
@@ -88,22 +102,29 @@
 
   <body>
     <div class="container">
-
       <h1>Sonu Kumar</h1>
-      <div class="tag">Full-Stack Developer • Node.js Engineer • AI Systems Builder</div>
+      <div class="tag">
+        Full-Stack Developer • Node.js Engineer • AI Systems Builder
+      </div>
 
       <p class="bio">
-        I develop smart, scalable, and real-world-useful applications — from 
-        full-stack platforms to autonomous AI agents, VR simulations, and 
-        hardware-integrated automation projects. Passionate about clean 
-        architecture, meaningful products, and building things that improve 
+        I develop smart, scalable, and real-world-useful applications — from
+        full-stack platforms to autonomous AI agents, VR simulations, and
+        hardware-integrated automation projects. Passionate about clean
+        architecture, meaningful products, and building things that improve
         everyday life.
       </p>
 
       <div class="icons">
-        <a href="https://github.com/notysozu" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/notysozu" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="mailto:sonukumarsuman365@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/notysozu" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/notysozu" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="mailto:sonukumarsuman365@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
         <a href="/" target="_blank"><i class="fas fa-link"></i></a>
       </div>
 
